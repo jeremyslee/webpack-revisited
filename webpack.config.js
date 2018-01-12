@@ -12,6 +12,7 @@ module.exports = {
   ],
   module: {
     rules: [
+      // Adds CSS to the DOM by injecting a <style> tag
       // {
       //   test: /\.css$/,
       //   use: [
