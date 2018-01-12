@@ -12,20 +12,28 @@ module.exports = {
   ],
   module: {
     rules: [
+      /* 
       // Adds CSS to the DOM by injecting a <style> tag
-      // {
-      //   test: /\.css$/,
-      //   use: [
-      //     'style-loader',
-      //     'css-loader'
-      //   ]
-      // }
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
+      }
+      */
       {
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: 'css-loader'
         })
+      },
+      {
+        test: /\.(gif|jpg|png|svg)$/,
+        use: [
+          'file-loader'
+        ]
       }
     ]
   }
