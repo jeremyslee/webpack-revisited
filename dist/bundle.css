@@ -1,5 +1,19 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url(d41d8cd98f00b204e9800998ecf8427e.woff2) format('woff2'),
+       url(d41d8cd98f00b204e9800998ecf8427e.woff) format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
 .hello {
+  font-family: 'MyFont';
   color: red;
   display: flex;
   flex-direction: column;
+}
+
+img {
+  width: 250px;
+  border: 2px solid yellow;
 }
