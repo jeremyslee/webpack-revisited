@@ -71,24 +71,12 @@
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__style_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__smudge_jpg__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__smudge_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__smudge_jpg__);
-
-
 
 
 function component() {
   const element = document.createElement('div');
 
   element.innerHTML = __WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Hello', 'Webpack'], ' ');
-  element.classList.add('hello');
-  
-  const myIcon = new Image();
-  myIcon.src = __WEBPACK_IMPORTED_MODULE_2__smudge_jpg___default.a;
-  
-  element.appendChild(myIcon);
 
   return element;
 }
@@ -17242,18 +17230,6 @@ module.exports = function(module) {
 	return module;
 };
 
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 5 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "92249c6d40674570f37abc632fcbeab2.jpg";
 
 /***/ })
 /******/ ]);
