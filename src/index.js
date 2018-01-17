@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 import Smudge from './smudge.jpg';
+import Data from './data.xml';
 
 function component() {
   const element = document.createElement('div');
@@ -12,6 +13,8 @@ function component() {
   myIcon.src = Smudge;
   
   element.appendChild(myIcon);
+
+  console.log('Data: ', Data);
 
   return element;
 }

@@ -75,6 +75,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__style_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__smudge_jpg__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__smudge_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__smudge_jpg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_xml__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_xml___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__data_xml__);
+
 
 
 
@@ -89,6 +92,8 @@ function component() {
   myIcon.src = __WEBPACK_IMPORTED_MODULE_2__smudge_jpg___default.a;
   
   element.appendChild(myIcon);
+
+  console.log('Data: ', __WEBPACK_IMPORTED_MODULE_3__data_xml___default.a);
 
   return element;
 }
@@ -17254,6 +17259,12 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "92249c6d40674570f37abc632fcbeab2.jpg";
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports) {
+
+module.exports = {"note":{"to":["Mary"],"from":["Bob"],"heading":["Reminder"],"body":["Call him on Monday"]}}
 
 /***/ })
 /******/ ]);
