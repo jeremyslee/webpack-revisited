@@ -1,7 +1,8 @@
 {
   "name": "webpack-revisited",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.17",
